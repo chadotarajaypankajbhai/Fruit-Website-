@@ -1,0 +1,896 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.warpper{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.main{
+    width: 100%;
+    display: flex;
+    background-image: url("../images/header-bg.png");
+    background-size: cover;
+    position: fixed;
+    top: 0px;
+    z-index: 999;
+}
+.main-one{
+    width: 20%;
+    text-align: center;
+}
+.main-two{
+    width: 50%;
+    text-align: center;
+}
+.main-three{
+    width: 30%;
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+}
+.main-two li{
+display: inline;
+padding: 0 25px;
+
+}
+.main-two a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    list-style: none;
+}
+.main-two a:hover{
+    color: rgb(66, 175, 66);
+}
+.main-three span{
+    color: rgb(66, 175, 66);
+}
+.main-two ul{
+    padding: 15px 0;
+   
+}
+.hea-a{
+    width: 100%;
+    display: flex;
+    background-image: url("../images/banner-slide/Banner-1.jpg");
+    background-size: cover;
+    padding: 80px 0;
+}
+.hea-a-left{
+    width: 50%;
+    /* padding-left: 80px; */
+    padding: 70px 0 70px 80px;
+}
+.hea-a-right{
+    width: 50%;
+}
+.hea-a-left h1{
+    color: navy;
+    font-size: 90px;
+}
+.hea-a-left h2{
+    background-color:forestgreen;
+    color: white;
+    display: inline-block;
+    font-size: 30px;
+    padding: 10px;
+    margin: 20px 0;
+}
+/* .hea-a-left button{
+    background-color: forestgreen;
+    color: white;
+    width: 30%;
+    border: none;
+    border-radius: 50px;
+    padding: 15px;
+    margin: 50px 0;
+    border: none;
+}
+.hea-a-left button:hover{
+    background-color: white;
+    color: forestgreen;
+    border: 2px solid forestgreen;
+} */
+.sec-a{
+    width: 100%;
+    display: flex;
+    margin: 50px 0;
+}
+.sec-a-one{
+    width: 25%;
+    border: 2px solid gray;
+    margin: 0 10px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px 0;
+    background-color: whitesmoke;
+}
+.sec-a-two{
+    width: 25%;
+    border: 2px solid gray;
+    margin: 0 10px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px 0;
+    background-color: whitesmoke;
+}
+.sec-a-three{
+    width: 25%;
+    border: 2px solid gray;
+    margin: 0 10px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px 0;
+    background-color: whitesmoke;
+}
+.sec-a-four{
+    width: 25%;
+    border: 2px solid gray;
+    margin: 0 10px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px 0;
+    background-color: whitesmoke;
+}
+.sec-a-img img{
+    width: 100px;
+    padding: 20px 0;
+}
+ .sec-a-one:hover{
+    box-shadow: 0 0 15px forestgreen;
+ }
+ .sec-a-two:hover{
+    box-shadow: 0 0 15px forestgreen;
+ }
+ .sec-a-three:hover{
+    box-shadow: 0 0 15px forestgreen;
+ }
+ .sec-a-four:hover{
+    box-shadow: 0 0 15px forestgreen;
+ }
+ .sec-b{
+    width: 100%;
+    display: flex;
+    background-image: url("../images/about/about-banner.jpg");
+    background-size: cover;
+    padding: 50px 0;
+ }
+ .sec-b-left{
+    width: 50%;
+   padding-left: 60px;
+ }
+ .sec-b-right{
+    width: 50%;
+    text-align: center;
+ }
+ .sec-b-left h1{
+    color: navy;
+    font-size: 40px;
+    padding: 10px 0;
+ }
+ .sec-b-left h3{
+    color: navy;
+    padding: 10px 0;
+ }
+ .sec-b-left button{
+    border: none;
+    background-color: forestgreen;
+    color: white;
+    padding: 10px;
+    width: 25%;
+    margin: 50px 0;
+    border-radius: 50px;
+ }
+ .sec-b-left button:hover{
+    background-color: white;
+    color: forestgreen;
+    box-shadow: 0 0 10px forestgreen;
+ }
+ .sec-c{
+    width: 100%;
+    text-align: center;
+    margin: 50px 0;
+    padding: 15px 0;
+ }
+ .sec-c h1{
+    font-size: 60px;
+    color: forestgreen;
+ }
+.sec-d{
+    width: 100%;
+    display: flex;
+    margin: 50px 0;
+} 
+.sec-d-one{
+    width: 25%;
+    border: 2px solid gray;
+    background-color: whitesmoke;
+    text-align: center;
+    margin: 0 10px;
+    border-radius: 10px;
+}
+.sec-d-two{
+    width: 25%;
+    border: 2px solid gray;
+    background-color: whitesmoke;
+    text-align: center;
+    margin: 0 10px;
+    border-radius: 10px;
+}
+.sec-d-three{
+    width: 25%;
+    border: 2px solid gray;
+    background-color: whitesmoke;
+    text-align: center;
+    margin: 0 10px;
+    border-radius: 10px;
+}
+.sec-d-four{
+    width: 25%;
+    border: 2px solid gray;
+    background-color: whitesmoke;
+    text-align: center;
+    margin: 0 10px;
+    border-radius: 10px;
+}
+.sec-d img{
+    width: 300px;
+    padding: 20px;
+}
+.sec-d h1{
+    text-align: start;
+    font-size: 35px;
+}
+.sec-d h3{
+    text-align: end;
+    color: forestgreen;
+    font-size: 30px;
+}
+.sec-d-text{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0;
+}
+.sec-e{
+    width: 100%;
+    text-align: center;
+    background-color: burlywood;
+    padding: 30px 0;
+}
+.sec-e h1{
+    font-size: 50px;
+}
+.sec-g{
+    width: 100%;
+    text-align: center;
+    padding: 50px 0;
+}
+.sec-g h1{
+    font-size: 50px;
+}
+.sec-h{
+    width: 100%;
+    display: flex;
+    margin: 50px 0;
+}
+.sec-h-one{
+    width: 33%;
+    text-align: center;
+}
+.sec-h-two{
+    width: 33%;
+    text-align: center;
+   
+}
+.sec-h-three{
+    width: 34%;
+    text-align: center;
+}
+.sec-h img{
+    width: 380px;
+}
+.sec-l{
+    width: 100%;
+    display: flex;
+    margin: 50px 0;
+}
+.sec-l-one{
+    width: 33%;
+    text-align: center;
+}
+.sec-l-two{
+    width: 33%;
+    text-align: center;
+   
+}
+.sec-l-three{
+    width: 34%;
+    text-align: center;
+}
+.sec-l img{
+    width: 380px;
+}
+.sec-l-two img{
+    height: 290px;
+}
+.foo-a{
+    width: 100%;
+    display: flex;
+    background-image: url("../images/footer-bg/footer_bg.png");
+    background-size: cover;
+    color: white;
+    padding: 70px 0;
+}
+.foo-a-one{
+    width: 25%;
+    text-align: center;
+    padding: 50px 0;
+}
+.foo-a-two{
+    width: 25%;
+    text-align: center;
+    padding: 50px 0;
+}
+.foo-a-three{
+    width: 25%;
+    text-align: center;
+    padding: 50px 0;
+}
+.foo-a-four{
+    width: 25%;
+    text-align: center;
+    padding: 50px 0;
+}
+.foo-b{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 5px 0;
+}
+.foo-c{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 5px 0;
+}
+.foo-d{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 5px 0;
+}
+.foo-a-one i{
+    font-size: 20px;
+    padding: 10px 0;
+    margin: 0 10px;
+}
+.foo-a-two a{
+    display: block;
+    color: white;
+    padding: 5px 0;
+    list-style: none;
+    text-decoration: none;
+}
+.foo-a-three a{
+    display: block;
+    color: white;
+    padding: 5px 0;
+    text-decoration: none;
+}
+.foo-a-four input{
+    width: 80%;
+    background: transparent;
+    color: white;
+    border: none;
+    border: 2px solid white;
+    padding: 10px 0;
+    margin: 30px 0;
+}
+.foo-a-four button{
+    background-color: forestgreen;
+    color: white;
+    width: 40%;
+    padding: 15px;
+    border: none;
+    border-radius: 50px;
+}
+.hea-b{
+    width: 100%;
+    background-image: url("../images/banner-slide/top-banner.jpg");
+    background-size: cover;
+    padding: 50px 0;
+    display: flex;
+}
+.hea-b-left{
+    width: 50%;
+    padding: 80px 0;
+}
+.hea-b-right{
+    width: 50%;
+}
+.hea-b-left h1{
+    font-size: 80px;
+}
+.sec-k{
+    width: 100%;
+    display: flex;
+    margin: 50px 0;
+}
+.sec-k-left{
+    width: 50%;
+}
+.sec-k-right{
+    width: 50%;
+    padding: 30px ;
+}
+.sec-k-text{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.sec-k-text h1{
+    font-size: 50px;
+}
+.sec-k-left img{
+    width: 590px;
+}
+
+.sec-k-one{
+    width: 100%;
+    display: flex;
+    margin: 50px 0;
+}
+.sec-k-one-left{
+    width: 50%;
+    padding: 30px ;
+}
+.sec-k-one-right{
+    width: 50%;
+   
+}
+.sec-k-one-text{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.sec-k-one-text h1{
+    font-size: 50px;
+}
+.sec-k-one-right img{
+    width: 590px;
+}
+.sec-s{
+    width: 100%;
+    text-align: center;
+    margin: 50px 0;
+}
+.sec-s h1{
+ font-size: 50px;
+}
+.sec-s-one{
+    width: 100%;
+    display: flex;
+    margin: 50px 0;
+}
+.sec-s-one-left{
+    width: 50%;
+    text-align: center;
+}
+.sec-s-one-right{
+    width: 50%;
+   padding: 0 50px;
+}
+.sec-s-one-left img{
+    width: 650px;
+}
+.sec-s-one-right h1,h2{
+    font-size: 40px;
+    color: forestgreen;
+    padding: 10px 0;
+}
+.sec-s-one-right button{
+    width: 30%;
+    padding: 15px;
+    background-color: forestgreen;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    margin: 30px 0;
+}
+.sec-s-two{
+    width: 100%;
+    display: flex;
+}
+.sec-s-two-left{
+    width: 50%;
+    padding: 50px;
+}
+.sec-s-two-right{
+    width: 50%;
+}
+.sec-s-two-right img{
+    width: 650px;
+}
+.sec-s-two-left h1,h2{
+    font-size: 40px;
+    color: forestgreen;
+    padding: 10px 0;
+}
+.sec-s-two-left button{
+    width: 30%;
+    padding: 15px;
+    background-color: forestgreen;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    margin: 30px 0;
+}
+.sec-h-four{
+    width: 100%;
+    text-align: center;
+    margin: 50px 0;
+}
+.sec-h-four h1{
+    font-size: 50px;
+}
+.sec-r{
+    width: 100%;
+    display: flex;
+    margin: 50px 0;
+}
+.sec-r-one{
+    width: 33%;
+    text-align: center;
+}
+.sec-r-two{
+    width: 33%;
+    text-align: center;
+   
+}
+.sec-r-three{
+    width: 34%;
+    text-align: center;
+}
+.sec-r img{
+    width: 380px;
+}
+.sec-r-three img{
+    height: 290px;
+}
+.sec-p{
+    width: 100%;
+    text-align: center;
+    padding: 50px 0;
+}
+.sec-p h1{
+    font-size: 50px;
+}
+.sec-w{
+    width: 100%;
+    display: flex;
+}
+.sec-w-left{
+    width: 50%;
+   
+    text-align: center;
+}
+.sec-w-right{
+    width: 50%;
+
+}
+.sec-w-left input{
+    width: 45%;
+    margin:  10px;
+    padding: 10px;
+}
+.sec-w-left textarea{
+    width: 95%;
+    margin: 10px;
+    padding: 15px;
+}
+.sec-w-left button{
+    width: 30%;
+    border: none;
+    background-color: forestgreen;
+    color: white;
+    padding: 15px;
+    border-radius: 50px;
+    margin: 50px 0;
+}
+.sec-w-right iframe{
+    width: 100%;
+    height: 350px;
+}
+@media (max-width:1024px) {
+    .sec-d img{
+        width: 250px;
+    }
+    .sec-h img{
+        width: 300px;
+    }
+    .sec-l img{
+        width: 300px;
+    }
+    .sec-d{
+        display: block;
+    }
+    .sec-d-one{
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+    .sec-d-two{
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+    .sec-d-three{
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+    .sec-d-four{
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+    .sec-l-two img{
+        height: 230px;
+    }
+    .main-two li{
+        padding: 0 15px;
+    }
+    .sec-k-left img{
+        width: 500px;
+        padding: 30px 0;
+    }
+    .sec-k-right{
+        padding: 0;
+    }
+    .sec-k-one-right img {
+        width: 500px;
+        padding: 50px 0;
+    }
+    .sec-k-left{
+        padding: 0;
+    }
+    .sec-s-one-left img{
+        width: 550px;
+        padding: 50px 0;
+    }
+    .sec-s-two-right img{
+        width: 500px;
+        padding: 50px 0;
+    }
+    .sec-r img{
+        width: 300px;
+    }
+}
+@media (max-width:768px) {
+    .main-two li{
+        padding: 0 5px;
+    }
+    .hea-a-left{
+        width: 100%;
+        text-align: center;
+    }
+    .hea-a{
+        display: block;
+    }
+    .sec-b{
+        display: block;
+    }
+    .sec-b-left{
+        width: 100%;
+        text-align: center;
+    }
+    .sec-h{
+        display: block;
+    }
+    .sec-h-one{
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+    }
+    .sec-h-two{
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+    }
+    .sec-h-three{
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+    }
+    .sec-l{
+        display: block;
+    }
+    .sec-l-one{
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+    }
+    .sec-l-two{
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+    }
+    .sec-l-three{
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+    }
+    .foo-a{
+        display: block;
+    }
+    .foo-a-one{
+        width: 100%;
+        text-align: center;
+    }
+    .foo-a-two{
+        width: 100%;
+        text-align: center;
+    }
+    .foo-a-three{
+        width: 100%;
+        text-align: center;
+    }
+    .foo-a-four{
+        width: 100%;
+        text-align: center;
+    }
+    .hea-b-left h1{
+        font-size: 70px;
+    }
+    .sec-k{
+        display: block;
+    }
+    .sec-k-left{
+        width: 100%;
+        text-align: center;
+    }
+    .sec-k-right{
+        width: 100%;
+        text-align: center;
+    }
+    .sec-k-one{
+        display: block;
+    }
+    .sec-k-one-left{
+        width: 100%;
+        text-align: center;
+    }
+    .sec-k-one-right{
+        width: 100%;
+        text-align: center;
+    }
+    .sec-s-one{
+        display: block;
+        width: 100%;
+    }
+    .sec-s-one-right{
+        width: 100%;
+        text-align: center;
+    }
+    .sec-s-one-left{
+        width: 100%;
+        text-align: center;
+    }
+
+    .sec-s-two{
+        display: block;
+        width: 100%;
+    }
+    .sec-s-two-right{
+        width: 100%;
+        text-align: center;
+    }
+    .sec-s-two-left{
+        width: 100%;
+        text-align: center;
+    }
+    .sec-r{
+        display: block;
+    }
+    .sec-r-one{
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+    }
+    .sec-r-two{
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+    }
+    .sec-r-three{
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+    }
+    .sec-w{
+    display: block;
+    }
+    .sec-w-left{
+        width: 100%;
+        text-align: center;
+    }
+    .sec-w-right{
+        width: 100%;
+        text-align: center;
+    }
+}
+@media (max-width:450px) {
+    .main{
+        display: block;
+        display: none;
+ 
+    }
+    .main-one{
+        display: none;
+    }
+    .main-three{
+        display: none;
+    }
+    .main-two li{
+        width: 100%;
+        display: block;
+    }
+    .hea-a-left{
+        padding: 0;
+    }
+    .sec-a{
+        display: block;
+    }
+    .sec-a-one{
+        width: 100%;
+        margin: 0;
+    }
+    .sec-a-two{
+        width: 100%;
+        margin: 0;
+    }
+    .sec-a-three{
+        width: 100%;
+        margin: 0;
+    }
+    .sec-a-four{
+        width: 100%;
+        margin: 0;
+    }
+    .sec-b-left{
+        padding: 0;
+    }
+    .sec-e h1{
+        font-size: 30px;
+    }
+    .hea-b-left h1{
+        font-size: 40px;
+    }
+    .sec-k-left img{
+        width: 400px;
+    }
+    .sec-k-one-right img{
+        width: 400px;
+    }
+    .hea-b-left h1{
+        text-align: center;
+    }
+    .hea-b{
+        display: block;
+    }
+    .hea-b-left{
+        width: 100%;
+    }
+    .sec-s-one-left img{
+        width: 450px;
+    }
+    .sec-s-two-right img{
+        width: 450px;
+    }
+}
